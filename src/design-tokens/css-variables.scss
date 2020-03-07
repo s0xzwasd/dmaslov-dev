@@ -1,0 +1,38 @@
+:root {
+  /* COLORS */
+  // Primary colors
+  --color-primary: #ffffff;
+  // Secondary colors
+  --color-secondary: #0b5fff;
+  // Neutral colors
+  --color-neutral-1: #09101d;
+  --color-neutral-2: #000000;
+  // Projects colors
+  --color-idea: #0710e4;
+  --color-in-process: #030656;
+  --color-implemented: var(--color-neutral-2);
+  // Other colors
+  --color-resource: #ffffff;
+  --color-important: #ba2d01;
+  --color-on-white: #0108a9;
+
+  /* TYPOGRAPHY */
+  // Font family
+  --font-family: "Museo Sans Rounded", "Arial", sans-serif;
+  // Font sizes
+  --font-size-xxl: 63px;
+  --font-size-xl: 52px;
+  --font-size-l: 48px;
+  --font-size-m: 32px;
+  --font-size-s: 24px;
+  // Line height sizes
+  --line-height-xxl: 76px;
+  --line-height-xl: 62px;
+  --line-height-l: 58px;
+  --line-height-m: 38px;
+  --line-height-s: 29px;
+
+  /* OTHER */
+  // Border radius sizes
+  --rd-xl: 30px;
+}
