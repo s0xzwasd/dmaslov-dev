@@ -11,11 +11,13 @@ const styles = {
   backgroundColor: "black"
 };
 
-export const WithText = () => (
+export const WithTextLarge = () => (
   <div style={styles}>
-    <Heading style={styles}>Hello, I'm Heading here!</Heading>
+    <Heading size='large'>Hello, I'm Heading here!</Heading>
   </div>
 );
+
+export const WithTextMedium = () => <Heading size='medium'>Hello, I'm Heading here!</Heading>;
 
 export const WithoutText = () => (
   <div style={styles}>

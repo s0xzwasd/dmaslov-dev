@@ -4,7 +4,16 @@
   margin-bottom: 0;
   color: var(--color-primary);
   font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+}
+
+.large {
   font-size: var(--font-size-xl);
   line-height: var(--line-height-xl);
-  font-weight: var(--font-weight-bold);
+}
+
+.medium {
+  color: var(--color-neutral-1);
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-l);
 }
