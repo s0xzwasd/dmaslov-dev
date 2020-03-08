@@ -1,0 +1,30 @@
+@import "../../design-tokens/scss-variables.scss";
+
+.card {
+  box-sizing: border-box;
+  padding: $spacer-xl;
+  background-color: var(--color-secondary);
+  max-width: $card-width-max;
+  min-height: $card-height-min;
+  border-radius: var(--rd-xl);
+  box-shadow: var(--bs-m);
+}
+
+.heading {
+  margin-left: $spacer-l;
+}
+
+.type {
+  margin-top: $spacer-xl;
+  display: flex;
+}
+
+.content {
+  margin-left: $spacer-m * 2;
+}
+
+.link {
+  margin-top: $spacer-xs;
+  display: flex;
+  flex-wrap: nowrap;
+}

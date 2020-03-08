@@ -1,11 +1,15 @@
 // Spacers
 $spacer-xs: 4px;
 $spacer-s: 8px;
-$spacer-m: 16px;
-$spacer-l: 24px;
-$spacer-l: 32px;
+$spacer-m: 12px;
+$spacer-l: 17px;
+$spacer-xl: 28px;
 
 // Breakpoints
 $desktop-breakpoint: 1200px;
 $table-breakpoint: 768px;
 $mobile-breakpoint: 576px;
+
+// Card sizes
+$card-width-max: 335px;
+$card-height-min: 170px;
