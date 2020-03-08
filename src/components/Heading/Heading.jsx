@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Heading.module.scss";
 
-const Heading = ({ children, size }) => {
-  return <h2 className={`${styles.heading} ${styles[size]}`}>{children}</h2>;
+const Heading = ({ className, children, size }) => {
+  return <h2 className={`${className} ${styles.heading} ${styles[size]}`}>{children}</h2>;
 };
 
 Heading.propTypes = {

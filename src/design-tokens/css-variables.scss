@@ -20,17 +20,17 @@
   // Font family
   --font-family: "Museo Sans Rounded", "Arial", sans-serif;
   // Font sizes
-  --font-size-xxl: 63px;
-  --font-size-xl: 52px;
-  --font-size-l: 48px;
-  --font-size-m: 32px;
-  --font-size-s: 24px;
+  --font-size-xxl: 31px;
+  --font-size-xl: 26px;
+  --font-size-l: 24px;
+  --font-size-m: 16px;
+  --font-size-s: 12px;
   // Line height sizes
-  --line-height-xxl: 76px;
-  --line-height-xl: 62px;
-  --line-height-l: 58px;
-  --line-height-m: 38px;
-  --line-height-s: 29px;
+  --line-height-xxl: 38px;
+  --line-height-xl: 31px;
+  --line-height-l: 29px;
+  --line-height-m: 19px;
+  --line-height-s: 14px;
   // Font weight
   --font-weight-bold: 700;
   --font-weight-medium: 500;
@@ -38,5 +38,7 @@
 
   /* OTHER */
   // Border radius sizes
-  --rd-xl: 30px;
+  --rd-xl: 15px;
+  // Box-shadow values
+  --bs-m: 0px 3px 6px rgba(0, 0, 0, 0.25);
 }

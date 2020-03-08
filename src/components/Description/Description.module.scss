@@ -1,5 +1,6 @@
 .description {
   display: inline-block;
+  min-width: 40px;
   margin-top: 0;
   margin-bottom: 0;
   color: var(--color-primary);
@@ -7,4 +8,5 @@
   font-size: var(--font-size-s);
   line-height: var(--line-height-s);
   font-weight: var(--font-weight-medium);
+  white-space: pre-wrap;
 }
