@@ -1,8 +1,9 @@
 @import "../../design-tokens/scss-variables.scss";
 
 .card {
+  position: relative;
   box-sizing: border-box;
-  padding: $spacer-xl;
+  padding: $spacer-l * 2;
   background-color: var(--color-secondary);
   max-width: $card-width-max;
   min-height: $card-height-min;
@@ -31,4 +32,20 @@
 
 .important {
   background-color: var(--color-important);
+}
+
+.vertical {
+  position: absolute;
+  content: "";
+  width: $subheading-width;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 50%;
+  right: -55px;
+  text-align: center;
+  transform: translateY(-50%) rotate(90deg);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  color: var(--color-neutral-3);
 }

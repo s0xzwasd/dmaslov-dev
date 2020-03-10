@@ -6,7 +6,7 @@ import Description from "../Description";
 import Link from "../Link";
 import styles from "./Card.module.scss";
 
-const Card = ({ color, description, heading, icon, link, linkTitle }) => {
+const Card = ({ color, description, heading, subheading, icon, link, linkTitle }) => {
   return (
     <section className={`${styles.card} ${styles[color]}`}>
       <Icon>{icon}</Icon>
@@ -23,6 +23,7 @@ const Card = ({ color, description, heading, icon, link, linkTitle }) => {
           </Link>
         </Description>
       </div>
+      <h3 className={styles.vertical}>{subheading}</h3>
     </section>
   );
 };
@@ -31,6 +32,7 @@ Card.propTypes = {
   color: PropTypes.oneOf(["important"]),
   description: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
+  subheading: PropTypes.string,
   icon: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   linkTitle: PropTypes.string
@@ -39,6 +41,7 @@ Card.propTypes = {
 Card.defaultProps = {
   description: "Social and email",
   heading: "Card title",
+  subheading: "Github",
   icon: "👨‍",
   link: "https://www.notion.so/s0xzwasd/Resume-76a1d193249145c7822ce455942786f7",
   linkTitle: ""
