@@ -33,3 +33,16 @@ export const CardWithCustomColor = () => (
     />
   </div>
 );
+
+export const CardWithSubheading = () => (
+  <div style={styles}>
+    <Card
+      color='important'
+      description='Some description again and again'
+      heading='Component!'
+      subheading='Subheading'
+      icon='😉'
+      link='https://www.google.ru/'
+    />
+  </div>
+);
