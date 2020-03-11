@@ -30,6 +30,10 @@
   flex-wrap: nowrap;
 }
 
+.default {
+  background-color: var(--color-secondary);
+}
+
 .important {
   background-color: var(--color-important);
 }

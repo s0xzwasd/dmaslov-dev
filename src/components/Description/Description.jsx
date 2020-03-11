@@ -8,7 +8,7 @@ const Description = ({ className, children }) => {
 
 Description.propTypes = {
   className: PropTypes.string,
-  children: PropTypes.string.isRequired
+  children: PropTypes.oneOfType([PropTypes.string.isRequired, PropTypes.object.isRequired])
 };
 
 Description.defaultProps = {
