@@ -5,6 +5,8 @@ import Heading from "../components/Heading";
 import Card from "../components/Card";
 
 import aboutData from "../data/about";
+import projectsData from "../data/projects";
+import otherData from "../data/other";
 
 import styles from "./Main.module.scss";
 
@@ -34,15 +36,15 @@ class Main extends PureComponent {
         </section>
         <section className={styles.section}>
           <Heading className={styles.heading} size='medium'>
-            About me
+            Projects
           </Heading>
-          <div className={styles.cards}>{this.renderCards(aboutData)}</div>
+          <div className={styles.cards}>{this.renderCards(projectsData)}</div>
         </section>
         <section className={styles.section}>
           <Heading className={styles.heading} size='medium'>
-            About me
+            Other
           </Heading>
-          <div className={styles.cards}>{this.renderCards(aboutData)}</div>
+          <div className={styles.cards}>{this.renderCards(otherData)}</div>
         </section>
       </main>
     );
