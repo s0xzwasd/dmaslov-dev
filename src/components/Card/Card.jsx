@@ -8,7 +8,7 @@ import Link from "../Link";
 
 import styles from "./Card.module.scss";
 
-const Card = ({ color, description, heading, subheading, icon, link, linkTitle }) => (
+const Card = ({ color, description, heading, subheading, icon, link, linkTitle, colorOnDark }) => (
   <section className={`${styles.card} ${styles[color]}`}>
     <Icon>{icon}</Icon>
     <Heading className={styles.heading}>{heading}</Heading>
@@ -24,12 +24,13 @@ const Card = ({ color, description, heading, subheading, icon, link, linkTitle }
         </Link>
       </Description>
     </div>
-    <h3 className={styles.vertical}>{subheading}</h3>
+    <h3 className={colorOnDark ? `${styles["dark-vertical"]} ${styles.vertical}` : styles.vertical}>{subheading}</h3>
   </section>
 );
 
 Card.propTypes = {
-  color: PropTypes.oneOf(["default", "important"]),
+  color: PropTypes.oneOf(["default", "about", "light", "idea", "process", "implemented", "resource", "important"]),
+  colorOnDark: PropTypes.bool,
   description: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,
   subheading: PropTypes.string,
@@ -39,6 +40,7 @@ Card.propTypes = {
 };
 
 Card.defaultProps = {
+  colorOnDark: false,
   description: "Social and email",
   heading: "Card title",
   subheading: "Github",

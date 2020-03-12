@@ -12,10 +12,11 @@ import styles from "./Main.module.scss";
 
 class Main extends PureComponent {
   renderCards = data => {
-    return data.map(({ color, description, heading, subheading, icon, link }) => (
+    return data.map(({ color, colorOnDark, description, heading, subheading, icon, link }) => (
       <Card
         key={uuidv4()}
         color={color}
+        colorOnDark={colorOnDark}
         description={description}
         heading={heading}
         subheading={subheading}

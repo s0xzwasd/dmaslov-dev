@@ -3,7 +3,7 @@
 .card {
   position: relative;
   box-sizing: border-box;
-  padding: $spacer-l * 2;
+  padding: $spacer-l * 2 $spacer-l;
   background-color: var(--color-secondary);
   max-width: $card-width-max;
   min-height: $card-height-min;
@@ -21,7 +21,7 @@
 }
 
 .content {
-  margin-left: $spacer-m * 2;
+  margin: 0 $spacer-m * 2;
 }
 
 .link {
@@ -34,8 +34,32 @@
   background-color: var(--color-secondary);
 }
 
+.about {
+  background-color: var(--color-secondary-alpha-1);
+}
+
+.light {
+  background-color: var(--color-secondary-alpha-2);
+}
+
+.idea {
+  background-color: var(--color-idea);
+}
+
+.process {
+  background-color: var(--color-in-process);
+}
+
+.implemented {
+  background-color: var(--color-neutral-2);
+}
+
 .important {
   background-color: var(--color-important);
+}
+
+.resource {
+  background-color: var(--color-resource);
 }
 
 .vertical {
@@ -52,4 +76,8 @@
   font-weight: var(--font-weight-bold);
   text-transform: uppercase;
   color: var(--color-neutral-3);
+}
+
+.dark-vertical {
+  color: var(--color-resource-alpha);
 }

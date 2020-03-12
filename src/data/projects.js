@@ -1,14 +1,25 @@
 let projectsData = [
   {
-    color: "default",
+    color: "idea",
+    colorOnDark: true,
+    heading: "password-generator",
+    subheading: "Idea & Design",
+    description: "Small Project",
+    icon: "‍🌗",
+    link: "https://github.com/s0xzwasd/password-generator"
+  },
+  {
+    color: "process",
+    colorOnDark: true,
     heading: "dmaslov.dev",
     subheading: "in the process",
     description: "Portfolio Page",
-    icon: "‍🌗",
+    icon: "‍🌖",
     link: "https://github.com/s0xzwasd/dmaslov-dev"
   },
   {
-    color: "default",
+    color: "process",
+    colorOnDark: true,
     heading: "Teachbase",
     subheading: "in the process",
     description: "Frontend Contribution",
@@ -16,7 +27,8 @@ let projectsData = [
     link: "https://github.com/teachbase"
   },
   {
-    color: "default",
+    color: "implemented",
+    colorOnDark: true,
     heading: "border-radius",
     subheading: "Implemented",
     description: "Small Project",
@@ -24,7 +36,8 @@ let projectsData = [
     link: "https://github.com/s0xzwasd/border-radius-for-us"
   },
   {
-    color: "default",
+    color: "implemented",
+    colorOnDark: true,
     heading: "bored-ideas",
     subheading: "Implemented",
     description: "Small Project",
