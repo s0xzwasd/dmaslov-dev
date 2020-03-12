@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import styles from "./Icon.module.scss";
 
-const Icon = ({ children, label }) => {
-  return (
-    <span className={styles.icon} aria-label={label} role='img'>
-      {children}
-    </span>
-  );
-};
+const Icon = ({ children, label }) => (
+  <span className={styles.icon} aria-label={label} role='img'>
+    {children}
+  </span>
+);
 
 Icon.propTypes = {
   children: PropTypes.string.isRequired,

@@ -1,6 +1,8 @@
+@import "../../design-tokens/scss-variables.scss";
+
 .container {
   box-sizing: border-box;
-  max-width: 1230px;
+  max-width: $container-width-l;
   padding: 0 30px;
   margin: 0 auto;
 }
