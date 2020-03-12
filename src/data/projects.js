@@ -22,6 +22,14 @@ let projectsData = [
     description: "Small Project",
     icon: "‍🌕",
     link: "https://github.com/s0xzwasd/border-radius-for-us"
+  },
+  {
+    color: "default",
+    heading: "bored-ideas",
+    subheading: "Implemented",
+    description: "Small Project",
+    icon: "‍🌕",
+    link: "https://codesandbox.io/s/bored-ideas-zjgkn"
   }
 ];
 
