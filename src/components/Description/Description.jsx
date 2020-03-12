@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import styles from "./Description.module.scss";
 
-const Description = ({ className, children }) => {
-  return <p className={`${className} ${styles.description}`}>{children}</p>;
-};
+const Description = ({ className, children }) => <p className={`${className} ${styles.description}`}>{children}</p>;
 
 Description.propTypes = {
   className: PropTypes.string,
