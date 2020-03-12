@@ -8,7 +8,7 @@ let aboutData = [
     link: "https://www.notion.so/s0xzwasd/11-03-2020-f2a3e63530354eee857c9af85ae4cbbf"
   },
   {
-    color: "default",
+    color: "about",
     heading: "What experience?",
     subheading: "1 year in prod",
     description: "Resume",
@@ -16,7 +16,7 @@ let aboutData = [
     link: "https://www.notion.so/s0xzwasd/Resume-76a1d193249145c7822ce455942786f7"
   },
   {
-    color: "default",
+    color: "light",
     heading: "Now in Teachbase",
     subheading: "Tech manager",
     description: "Education Platform",

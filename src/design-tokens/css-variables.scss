@@ -4,6 +4,8 @@
   --color-primary: #ffffff;
   // Secondary colors
   --color-secondary: #0b5fff;
+  --color-secondary-alpha-1: rgba(11, 95, 255, 0.8);
+  --color-secondary-alpha-2: rgba(11, 95, 255, 0.6);
   // Neutral colors
   --color-neutral-1: #09101d;
   --color-neutral-2: #000000;
@@ -14,6 +16,7 @@
   --color-implemented: var(--color-neutral-2);
   // Other colors
   --color-resource: #ffffff;
+  --color-resource-alpha: rgba(255, 255, 255, 0.6);
   --color-important: #ba2d01;
   --color-on-white: #0108a9;
 
