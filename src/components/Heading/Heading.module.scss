@@ -17,3 +17,10 @@
   font-size: var(--font-size-l);
   line-height: var(--line-height-l);
 }
+
+@media screen and (max-width: 430px) {
+  .large {
+    font-size: var(--font-size-l);
+    line-height: var(--line-height-l);
+  }
+}

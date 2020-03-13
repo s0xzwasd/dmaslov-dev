@@ -4,3 +4,11 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 430px) {
+  .link {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
