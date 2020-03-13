@@ -88,6 +88,14 @@
     padding: $spacer-l;
   }
 
+  .heading {
+    margin-left: $spacer-s;
+  }
+
+  .content {
+    margin: 0 $spacer-s;
+  }
+
   .vertical {
     display: none;
   }
