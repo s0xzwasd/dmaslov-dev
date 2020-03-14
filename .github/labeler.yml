@@ -1,0 +1,11 @@
+documentation:
+  - ./README.md
+
+eslint:
+  - ./.eslintrc.json
+
+examples:
+  - src/**/*.stories.js
+
+test:
+  - src/**/*.test.js
