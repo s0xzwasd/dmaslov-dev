@@ -14,14 +14,14 @@ const styles = {
 
 export const WithTextLarge = () => (
   <div style={styles}>
-    <Heading size='large'>Hello, I'm Heading here!</Heading>
+    <Heading size='large'>Hello, Heading here!</Heading>
   </div>
 );
 
-export const WithTextMedium = () => <Heading size='medium'>Hello, I'm Heading here!</Heading>;
+export const WithTextMedium = () => <Heading size='medium'>Hello, Heading here!</Heading>;
 
 export const WithoutText = () => (
   <div style={styles}>
-    <Heading></Heading>
+    <Heading />
   </div>
 );

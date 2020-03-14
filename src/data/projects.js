@@ -1,4 +1,4 @@
-let projectsData = [
+const projectsData = [
   {
     color: "idea",
     colorOnDark: true,

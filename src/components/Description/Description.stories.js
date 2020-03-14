@@ -14,12 +14,12 @@ const styles = {
 
 export const WithText = () => (
   <div style={styles}>
-    <Description>Hello, I'm Description here!</Description>
+    <Description>Hello, Description here!</Description>
   </div>
 );
 
 export const WithoutText = () => (
   <div style={styles}>
-    <Description></Description>
+    <Description />
   </div>
 );

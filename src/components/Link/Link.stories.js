@@ -14,12 +14,6 @@ const styles = {
 
 export const LinkCustom = () => (
   <div style={styles}>
-    <Link>‍Link there</Link>
-  </div>
-);
-
-export const LinkDefault = () => (
-  <div style={styles}>
-    <Link />
+    <Link to='https://www.npmjs.com/package/eslint-config-react-app'>‍Link there</Link>
   </div>
 );

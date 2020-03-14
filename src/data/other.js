@@ -1,4 +1,4 @@
-let otherData = [
+const otherData = [
   {
     color: "default",
     heading: "Certificates",

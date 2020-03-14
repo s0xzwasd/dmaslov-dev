@@ -23,8 +23,7 @@ Link.propTypes = {
 };
 
 Link.defaultProps = {
-  children: "Default link",
-  to: "https://www.google.ru/",
+  title: "Default title",
   isBlank: false
 };
 

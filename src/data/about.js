@@ -1,4 +1,4 @@
-let aboutData = [
+const aboutData = [
   {
     color: "default",
     heading: "Contacts",
