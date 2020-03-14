@@ -40,12 +40,9 @@ Card.propTypes = {
 };
 
 Card.defaultProps = {
+  color: "default",
   colorOnDark: false,
-  description: "Social and email",
-  heading: "Card title",
   subheading: "Github",
-  icon: "👨‍",
-  link: "https://www.notion.so/s0xzwasd/Resume-76a1d193249145c7822ce455942786f7",
   linkTitle: ""
 };
 

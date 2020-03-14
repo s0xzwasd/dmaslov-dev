@@ -3,19 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
+    "uuid": "^7.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "prop-types": "^15.7.2",
-    "uuid": "^7.0.2"
+    "@testing-library/user-event": "^7.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --passWithNoTests",
+    "lint": "eslint .",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
@@ -41,8 +42,13 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write"
+    "*.+(js|jsx)": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.+(json|css|md)": [
+      "prettier --write",
+      "git add"
     ]
   },
   "devDependencies": {
@@ -52,6 +58,12 @@
     "@storybook/preset-create-react-app": "^2.0.0",
     "@storybook/react": "^5.3.14",
     "storybook-design-token": "^0.5.1",
+    "@typescript-eslint/parser": "^2.23.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "node-sass": "^4.13.1",
