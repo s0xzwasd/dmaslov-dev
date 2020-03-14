@@ -1,8 +1,8 @@
 # dmaslov.dev
 
-Portfolio project with contacts and conference information.
+Personal portfolio with contacts and projects information.
 
-Soon there will be a picture of the project.
+![Portfolio looks like](https://i.imgur.com/tR3qyxM.png)
 
 [Click to view the project](https://dmaslov.dev/)
 
