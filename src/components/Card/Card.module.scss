@@ -2,6 +2,7 @@
 
 .card {
   position: relative;
+  top: 3px;
   box-sizing: border-box;
   padding: $spacer-l * 2 $spacer-l;
   background-color: var(--color-secondary);
@@ -9,6 +10,11 @@
   min-height: $card-height-min;
   border-radius: var(--rd-xl);
   box-shadow: var(--bs-m);
+  transition: top 0.25s;
+}
+
+.card:hover {
+  top: -5px;
 }
 
 .heading {
