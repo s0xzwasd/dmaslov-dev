@@ -1,8 +1,8 @@
 documentation:
-  - ./README.md
+  - README.md
 
 eslint:
-  - ./.eslintrc.json
+  - .eslintrc.json
 
 examples:
   - src/**/*.stories.js
