@@ -2,11 +2,11 @@ const projectsData = [
   {
     color: "idea",
     colorOnDark: true,
-    heading: "password-generator",
+    heading: "url-shortener",
     subheading: "Idea & Design",
     description: "Small Project",
     icon: "‍🌗",
-    link: "https://github.com/s0xzwasd/password-generator"
+    link: "https://github.com/s0xzwasd/url-shortener"
   },
   {
     color: "process",
