@@ -5,7 +5,7 @@ import Heading from "./Heading";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
-  ReactDOM.render(<Heading>Header test string</Heading>, div);
+  ReactDOM.render(<Heading>Header test string any</Heading>, div);
 });
 
 it("renders large heading", () => {
