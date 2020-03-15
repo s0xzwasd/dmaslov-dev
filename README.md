@@ -1,10 +1,10 @@
-# dmaslov.dev
+# dmaslov-dev.herokuapp.com
 
 Personal portfolio with contacts and projects information.
 
 ![Portfolio looks like](https://i.imgur.com/tR3qyxM.png)
 
-[Click to view the project](https://dmaslov.dev/)
+[Click to view the project](https://dmaslov-dev.herokuapp.com/)
 
 [Trello Project Board](https://trello.com/b/WPrS3HRY)
 
