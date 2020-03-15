@@ -59,7 +59,6 @@
     "@storybook/react": "^5.3.14",
     "storybook-design-token": "^0.5.1",
     "@typescript-eslint/parser": "^2.23.0",
-    "babel-eslint": "^10.1.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
