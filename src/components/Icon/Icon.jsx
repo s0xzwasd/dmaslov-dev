@@ -11,12 +11,11 @@ const Icon = ({ children, label }) => (
 
 Icon.propTypes = {
   children: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired
+  label: PropTypes.string
 };
 
 Icon.defaultProps = {
-  children: "🌗",
-  label: "Moon in strange phase"
+  label: "Emoji"
 };
 
 export default Icon;
