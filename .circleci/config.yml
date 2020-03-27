@@ -12,13 +12,22 @@ jobs:
             - run: yarn install
             - run: yarn lint
             - run: yarn test
+            - run: yarn build
+  deployment:
+    docker:
+      - image: circleci/node:7.10
+    steps:
+      - checkout
+      - run:
+          name: Deploy to Surge
+          command: surge --project ./build --domain dmaslov.surge.sh
 workflows:
-  build-and-test:
+  build:
     jobs:
       - build-and-test
-
-deployment:
-  production:
-    branch: master
-    commands:
-      - surge --project ./build --domain dmaslov.surge.sh
+  deployment:
+    jobs:
+      - deployment:
+          filters:
+            branches:
+              only: master
