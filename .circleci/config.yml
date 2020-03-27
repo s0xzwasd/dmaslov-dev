@@ -13,7 +13,7 @@ jobs:
             - run: yarn lint
             - run: yarn test
             - run: yarn build
-  deploy:
+  deployment:
     steps:
       - checkout
       - run:
@@ -23,9 +23,9 @@ workflows:
   build:
     jobs:
       - build-and-test
-  deploy:
+  deployment:
     jobs:
-      - deploy:
+      - deployment:
           requires:
             - build-and-test
           filters:
