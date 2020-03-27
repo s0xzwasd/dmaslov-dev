@@ -13,6 +13,12 @@ jobs:
             - run: yarn lint
             - run: yarn test
 workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
+  build-and-test:
+    jobs:
+      - build-and-test
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - surge --project ./build --domain dmaslov.surge.sh
