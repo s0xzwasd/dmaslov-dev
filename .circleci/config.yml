@@ -14,10 +14,11 @@ jobs:
             - run: yarn test
             - run: yarn build
   deploy:
-    - checkout
-    - run:
-        name: Deploy to Surge
-        command: surge --project ./build --domain dmaslov.surge.sh
+    steps:
+      - checkout
+      - run:
+          name: Deploy to Surge
+          command: surge --project ./build --domain dmaslov.surge.sh
 workflows:
   build:
     jobs:
