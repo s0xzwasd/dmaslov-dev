@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: $table-breakpoint) {
   .header {
     padding-top: 15%;
     padding-bottom: 15%;
@@ -58,13 +58,13 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: $mobile-breakpoint) {
   .container {
     padding: 0 25px;
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: $mobile-s-breakpoint) {
   .container {
     max-width: $container-width-xs;
     padding: 0 5px;

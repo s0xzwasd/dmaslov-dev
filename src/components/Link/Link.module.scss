@@ -1,3 +1,5 @@
+@import "../../design-tokens/scss-variables.scss";
+
 .link {
   display: inline-block;
   color: var(--color-primary);
@@ -5,7 +7,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: $mobile-breakpoint) {
   .link {
     display: block;
     overflow: hidden;
