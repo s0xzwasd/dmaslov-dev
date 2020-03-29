@@ -6,12 +6,6 @@ cache:
   directories:
     - node_modules
 script:
+  - yarn lint
   - yarn test
   - yarn build
-deploy:
-  provider: surge
-  skip_cleanup: true
-  domain: https://dmaslov.dev/
-  project: /build
-on:
-  branch: master
