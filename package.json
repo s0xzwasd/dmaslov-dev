@@ -65,7 +65,7 @@
     "husky": "4.2.3",
     "lint-staged": "10.0.9",
     "node-sass": "4.13.1",
-    "prettier": "1.19.1",
+    "prettier": "2.0.2",
     "storybook-design-token": "0.6.0",
     "surge": "0.21.3"
   }
