@@ -8,6 +8,8 @@
   background-color: var(--color-secondary);
   width: $card-width-max;
   min-height: $card-height-min;
+  overflow: hidden;
+  white-space: nowrap;
   border-radius: var(--rd-xl);
   box-shadow: var(--bs-m);
   transition: top 0.25s;
@@ -27,6 +29,10 @@
 }
 
 .content {
+  white-space: nowrap;
+  width: 250px;
+  text-overflow: ellipsis;
+  overflow: hidden;
   margin: 0 $spacer-m * 2;
 }
 

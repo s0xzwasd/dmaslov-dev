@@ -5,6 +5,9 @@
   color: var(--color-primary);
   text-decoration: none;
   cursor: pointer;
+  text-overflow: ellipsis;
+  width: 235px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
