@@ -20,7 +20,7 @@ const projectsData = [
   {
     color: "implemented",
     colorOnDark: true,
-    heading: "clickmeeting-registration",
+    heading: "clickmeeting-headless-registration",
     subheading: "Implemented",
     description: "NodeJS Project",
     icon: "‍🌕",

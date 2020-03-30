@@ -6,6 +6,9 @@
   margin-bottom: 0;
   vertical-align: top;
   color: var(--color-primary);
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
 }
