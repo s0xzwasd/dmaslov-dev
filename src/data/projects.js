@@ -4,18 +4,9 @@ const projectsData = [
     colorOnDark: true,
     heading: "url-shortener",
     subheading: "In the process",
-    description: "Small Project",
+    description: "React + Redux Project",
     icon: "‍🌗",
     link: "https://github.com/s0xzwasd/url-shortener"
-  },
-  {
-    color: "process",
-    colorOnDark: true,
-    heading: "dmaslov.dev",
-    subheading: "In the process",
-    description: "Portfolio Page",
-    icon: "‍🌖",
-    link: "https://github.com/s0xzwasd/dmaslov-dev"
   },
   {
     color: "process",
@@ -29,18 +20,36 @@ const projectsData = [
   {
     color: "implemented",
     colorOnDark: true,
+    heading: "clickmeeting-registration",
+    subheading: "Implemented",
+    description: "NodeJS Project",
+    icon: "‍🌕",
+    link: "https://github.com/s0xzwasd/clickmeeting-headless-registration"
+  },
+  {
+    color: "implemented",
+    colorOnDark: true,
     heading: "border-radius",
     subheading: "Implemented",
-    description: "Small Project",
+    description: "React Project",
     icon: "‍🌕",
     link: "https://github.com/s0xzwasd/border-radius-for-us"
   },
   {
     color: "implemented",
     colorOnDark: true,
+    heading: "dmaslov.dev",
+    subheading: "Implemented",
+    description: "Portfolio Page",
+    icon: "‍🌖",
+    link: "https://github.com/s0xzwasd/dmaslov-dev"
+  },
+  {
+    color: "implemented",
+    colorOnDark: true,
     heading: "bored-ideas",
     subheading: "Implemented",
-    description: "Small Project",
+    description: "React Project",
     icon: "‍🌕",
     link: "https://codesandbox.io/s/bored-ideas-zjgkn"
   }
