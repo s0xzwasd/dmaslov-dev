@@ -1,9 +1,9 @@
 const projectsData = [
   {
-    color: "idea",
+    color: "process",
     colorOnDark: true,
     heading: "url-shortener",
-    subheading: "Idea & Design",
+    subheading: "In the process",
     description: "Small Project",
     icon: "‍🌗",
     link: "https://github.com/s0xzwasd/url-shortener"
@@ -12,7 +12,7 @@ const projectsData = [
     color: "process",
     colorOnDark: true,
     heading: "dmaslov.dev",
-    subheading: "in the process",
+    subheading: "In the process",
     description: "Portfolio Page",
     icon: "‍🌖",
     link: "https://github.com/s0xzwasd/dmaslov-dev"
@@ -21,7 +21,7 @@ const projectsData = [
     color: "process",
     colorOnDark: true,
     heading: "Teachbase",
-    subheading: "in the process",
+    subheading: "In the process",
     description: "Frontend Contribution",
     icon: "‍🌖",
     link: "https://github.com/teachbase"
