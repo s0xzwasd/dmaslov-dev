@@ -5,7 +5,7 @@ const aboutData = [
     subheading: "Github inc",
     description: "Contacts and email",
     icon: "‍🚀",
-    link: "https://www.notion.so/s0xzwasd/11-03-2020-f2a3e63530354eee857c9af85ae4cbbf"
+    link: "https://www.notion.so/s0xzwasd/Contacts-78a4a392c45e41c9baacb5fa2bef6407"
   },
   {
     color: "about",
@@ -13,7 +13,7 @@ const aboutData = [
     subheading: "1 year in prod",
     description: "Resume",
     icon: "‍🌜",
-    link: "https://www.notion.so/s0xzwasd/Resume-76a1d193249145c7822ce455942786f7"
+    link: "https://www.notion.so/s0xzwasd/Resume-27455ed0322e41269bd40f23539ede3e"
   },
   {
     color: "light",

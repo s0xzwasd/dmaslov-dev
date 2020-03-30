@@ -5,7 +5,7 @@ const otherData = [
     subheading: "Resource",
     description: "Images and PDF files",
     icon: "‍🛰️",
-    link: "https://www.notion.so/s0xzwasd/Certific-ates-c9c54a-c340f44d-e08e6dd1-1498548995"
+    link: "https://www.notion.so/s0xzwasd/Certificates-26a38046b20c4283905b0cdd81387cdd"
   },
   {
     color: "important",
