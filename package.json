@@ -52,11 +52,11 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "5.3.17",
-    "@storybook/addon-links": "5.3.17",
-    "@storybook/addons": "5.3.17",
+    "@storybook/addon-actions": "5.3.18",
+    "@storybook/addon-links": "5.3.18",
+    "@storybook/addons": "5.3.18",
     "@storybook/preset-create-react-app": "2.1.1",
-    "@storybook/react": "5.3.17",
+    "@storybook/react": "5.3.18",
     "@typescript-eslint/parser": "2.25.0",
     "eslint-config-airbnb": "18.1.0",
     "eslint-config-prettier": "6.10.1",
