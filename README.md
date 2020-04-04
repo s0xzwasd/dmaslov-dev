@@ -1,4 +1,5 @@
-# dmaslov.dev [![Build Status](https://travis-ci.com/s0xzwasd/dmaslov-dev.svg?branch=master)](https://travis-ci.com/s0xzwasd/dmaslov-dev) ![GitHub](https://img.shields.io/github/license/s0xzwasd/dmaslov-dev) ![GitHub repo size](https://img.shields.io/github/repo-size/s0xzwasd/dmaslov-dev)
+# dmaslov.dev
+[![Build Status](https://travis-ci.com/s0xzwasd/dmaslov-dev.svg?branch=master)](https://travis-ci.com/s0xzwasd/dmaslov-dev) ![GitHub](https://img.shields.io/github/license/s0xzwasd/dmaslov-dev) ![GitHub repo size](https://img.shields.io/github/repo-size/s0xzwasd/dmaslov-dev)
 
 Personal portfolio with contacts and projects information.
 
