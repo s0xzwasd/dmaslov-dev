@@ -29,7 +29,7 @@ const Card = ({ color, description, heading, subheading, icon, link, linkTitle, 
 );
 
 Card.propTypes = {
-  color: PropTypes.oneOf(["default", "accent", "about", "light", "idea", "process", "implemented", "resource", "important"]),
+  color: PropTypes.oneOf(["default", "accent", "about", "light", "idea", "process", "implemented", "resource", "important", "so", "jetbrains"]),
   colorOnDark: PropTypes.bool,
   description: PropTypes.string.isRequired,
   heading: PropTypes.string.isRequired,

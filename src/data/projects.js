@@ -1,18 +1,18 @@
 const projectsData = [
   {
-    color: "process",
+    color: "implemented",
     colorOnDark: true,
     heading: "url-shortener",
-    subheading: "In the process",
+    subheading: "Implemented",
     description: "React + Redux Project",
     icon: "‍🌗",
     link: "https://github.com/s0xzwasd/url-shortener"
   },
   {
-    color: "process",
+    color: "implemented",
     colorOnDark: true,
     heading: "Teachbase",
-    subheading: "In the process",
+    subheading: "Finished",
     description: "Frontend Contribution",
     icon: "‍🌖",
     link: "https://github.com/teachbase"
