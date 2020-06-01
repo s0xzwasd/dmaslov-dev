@@ -22,7 +22,15 @@ const otherData = [
     description: "Interesting short notes",
     icon: "‍🤯",
     link: "https://dev.to/s0xzwasd"
-  }
+  },
+  {
+    color: "so",
+    heading: "Active Member",
+    subheading: "Q&A",
+    description: "Helping other people in English",
+    icon: "‍🎓",
+    link: "https://stackoverflow.com/users/13576700/s0xzwasd"
+  },
 ];
 
 export default otherData;

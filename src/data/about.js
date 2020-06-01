@@ -13,15 +13,15 @@ const aboutData = [
     subheading: "1 year in prod",
     description: "Resume",
     icon: "‍🌜",
-    link: "https://www.notion.so/s0xzwasd/Resume-27455ed0322e41269bd40f23539ede3e"
+    link: "https://www.linkedin.com/in/dsmaslov/"
   },
   {
-    color: "light",
-    heading: "Now in Teachbase",
-    subheading: "Tech manager",
-    description: "Education Platform",
+    color: "jetbrains",
+    heading: "Now in JetBrains",
+    subheading: "Support engineer",
+    description: "Golang IDE",
     icon: "‍👨",
-    link: "https://teachbase.ru/"
+    link: "https://www.jetbrains.com/go/"
   }
 ];
 
