@@ -1,9 +1,9 @@
 {
   "name": "dmaslov-dev",
-  "version": "47.0.0",
+  "version": "48.0.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "5.10.0",
+    "@testing-library/jest-dom": "5.10.1",
     "@testing-library/react": "10.2.1",
     "@testing-library/user-event": "11.4.2",
     "prop-types": "15.7.2",
