@@ -1,6 +1,6 @@
 {
   "name": "dmaslov-dev",
-  "version": "75.0.0",
+  "version": "76.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "5.11.2",
@@ -10,7 +10,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1",
-    "uuid": "8.2.0"
+    "uuid": "8.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
