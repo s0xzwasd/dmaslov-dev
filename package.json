@@ -1,6 +1,6 @@
 {
   "name": "dmaslov-dev",
-  "version": "134.0.0",
+  "version": "135.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "5.11.5",
@@ -52,11 +52,11 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "6.0.27",
-    "@storybook/addon-links": "6.0.27",
-    "@storybook/addons": "6.0.27",
+    "@storybook/addon-actions": "6.0.28",
+    "@storybook/addon-links": "6.0.28",
+    "@storybook/addons": "6.0.28",
     "@storybook/preset-create-react-app": "2.1.2",
-    "@storybook/react": "6.0.27",
+    "@storybook/react": "6.0.28",
     "@typescript-eslint/parser": "4.6.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-prettier": "6.15.0",
