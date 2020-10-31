@@ -1,6 +1,6 @@
 {
   "name": "dmaslov-dev",
-  "version": "132.0.0",
+  "version": "133.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "5.11.5",
@@ -60,7 +60,7 @@
     "@typescript-eslint/parser": "4.6.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-prettier": "6.15.0",
-    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-prettier": "3.1.4",
     "husky": "4.3.0",
     "lint-staged": "10.4.2",
