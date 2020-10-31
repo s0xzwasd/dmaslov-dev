@@ -1,6 +1,6 @@
 {
   "name": "dmaslov-dev",
-  "version": "135.0.0",
+  "version": "136.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "5.11.5",
@@ -63,7 +63,7 @@
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-prettier": "3.1.4",
     "husky": "4.3.0",
-    "lint-staged": "10.5.0",
+    "lint-staged": "10.5.1",
     "node-sass": "4.14.1",
     "prettier": "2.1.2",
     "storybook-design-token": "0.8.0",
