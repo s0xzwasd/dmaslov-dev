@@ -1,6 +1,6 @@
 {
   "name": "dmaslov-dev",
-  "version": "143.0.0",
+  "version": "144.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "5.11.5",
@@ -67,6 +67,6 @@
     "node-sass": "5.0.0",
     "prettier": "2.1.2",
     "storybook-design-token": "0.8.1",
-    "surge": "0.21.6"
+    "surge": "0.21.7"
   }
 }
