@@ -1,6 +1,6 @@
 {
   "name": "dmaslov-dev",
-  "version": "157.0.0",
+  "version": "158.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "5.11.6",
@@ -54,7 +54,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "6.1.8",
     "@storybook/addon-links": "6.1.8",
-    "@storybook/addons": "6.1.8",
+    "@storybook/addons": "6.1.9",
     "@storybook/preset-create-react-app": "2.1.2",
     "@storybook/react": "6.1.8",
     "@typescript-eslint/parser": "4.8.2",
